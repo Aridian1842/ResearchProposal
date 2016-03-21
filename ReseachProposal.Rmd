@@ -11,3 +11,49 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This is the research proposal for the final project by Emilia Sicari and Rafael Lopez V for the course Collaborative Social Science Data Analysis at Hertie School of Governance. 
 
+=======
+#Introduction
+
+relations betwenn growth, inequality, public services and transports as a way to reduce inequality. reationship between inequality and luxury consumption
+
+#Research question, hypotheses and justification
+
+The aim of our work is to investigate to which extent the rise in inequality caused by economic growth affects the purchase of luxury goods (in Singapore). 
+The hypotheses that we want to test throughout our analysis are the following:
+
+H1 - economic growth increases inequality
+
+H2 - inequality recuces economic growth 
+
+H3 - public sevices reduce inequality, thus spurring economic growth
+
+H4 - the rise in inequality caused by economic growth leads people on the higher social strata ti uncrease their purchases of luxury goods, to show their status. 
+
+JUSTIFICATION.... 
+
+#Literature review 
+
+In the last decades, the increase in income inequality has raised growing concern. In 2013 inequality and lack of mobility were defined as "the challenge of our time" by President Obama and one year later Pope Francis condemned the global "economy of exclusion". In fact, income inequality is not only a problem of developed economies, where the gap between rich and poor is at highest levels in devades, but also in developing economies and emerging markets, experiencing more mixed trends. in fact, although in some countries the gap is narrowing, all over access to education, health care and finance show pervasive disparities (Dabla-Norris E., Kochhar, K., Suphaphiphat, N., Ricka, F. et alia, 2015). 
+
+Before reviewing the relevant literature on this subject, some basic deifinitions are due. Inequality indicates differences in income, consimption or wealth associated with social welfare. Income is widely defined as the amount of money in a given period of time that an individual can spend in consumption without altering the value of their wealth. Economic growth is the rise GDP and GDP in per capita, which is usually considered function of the level of savings and investment. Finally, income distribution is the amount of income that individuals receive in a given society. There are two concepts attached to income distribution that can be found in the literature: functional and size distribution. The functional approach  how total income is distributed between land, labour and capital. Instead, size distribution shows how much income is received by individuals (or households). 
+
+The relations between growth and inequality is bilateral. However, while there is extensive literature on the impact of income disparities on growth, very few studies on the inverse relation are available. 
+
+On the one hand, it is widely recongnised that a rise in income inequality, results in a fall in economic growth. According to OECD (2014), income inequality has a negative and statistically significant impact on medium-term growth: rising inequality by 3 Gini points – the average in OECD countries over the past two decades – would drag down economic growth by 0.35% per year for 25 years, causing a cumulated loss in GDP at the end of the period amounting to 8.5%. There are several reasons explaining this causal relation. First, income inequality triggers political intability, resulting in political-economic uncertainty which, in turn, tends to reduce investment and - thus - economic growth.  Particularly, disparities in income distribution encourage poor people to undertake rent-seeking or illegal activities threatening poverty rights, and that drives down investment. The second mechanism is fiscal redistribution: in highly unequal context, the majority of the voters - who are poor - ask for redistributive policies; however, since such policies decrease the after-tax marginal product of capital, this lowers the rate of accumulation driving down growth (Alesina, Perotti 1996). Nevertheless, it is worth noting that redistribution policies may also positively affect growth, by reducing tensions and incentivising productive activities and capital accumulation. Yet, the net effect of redistributive policies on growth has to weigh the costs of distortionary taxation against the benefits of reduced social tensions. More broadly, taxation may not be ineherently detrimental to growth, as long as it reduces tax expenditure or loopholes that benefit the rich, increases public investment through progressive taxation or social insurance spending on welfare favouring poor people (Ostry, J. D., Berg A., Tsangarides, G. C., 2014). Finally, inequality reduces the capacity of poorer members of the society to invest in education, - thus hampering social mobility and skill development - (OECD, 2014) and reduces social consensus required to adjust shocks and sustain growth. Neverthess, all those effects may be non linear: increases in inequality from low levels provides growth enhancing incentives, while increases part some point encourage rent-seeking and lower growth (Ostry, J. D., Berg A., Tsangarides, G. C., 2014). 
+
+On the other hand, economic growth may produce a rise in income inequality and spread poverty, leading to social tensions and political discontent that jeopardise the wellbeing of society (Gallo, C., 2002). According to the inverted U hypothesis (Kuznets, 1955, o. 18), there is "a long swing in the inequality characterising the secular income structure: widening in the early phases of economic growth, when the transition from the preindustrial to the industrial civilization was most rapid; becoming stabilised for a while; and then narrowing in the later phases. There are two factors explaining the rise in income inequality. First, the concentration of savings in the hands of the upper social classes that lead to higher amount of income for them and their descendants. Second, increase in the urban share of the population resulting from economic growth is assumed to be more unequal than rural population, whose income is lower than the urban one. Hence, this gap in relative mean incomes tends to widen as a result of a more rapid growth of the per capita productivity in economic urban activities than in agriculture. However, such negative effects of economic growth only hold in the short run, since in the long run this trend tends to reverse due to government redistribution policies and other exogenous factors (such as the decrese in the proportion of rich families and growing immigration entering at the lower in come levels reduce the share of the top 5%of the population). Moreover, this tendency toward increasing inequality is reversed when all the surplus labour is absorbed into modern sector employment. Thus, labour becomes a scarce factor of production and further growth, which implies an increase in labour demand, will push the wages up. So, this rise in the general wage level will bring the downturn in inequality and poverty reduction. This theory has received little empirical support and in general, despite the relation between economic growth and inequality has been widely investigated in the literature, no definite causal relation has been found that allows generalising the ways in which economic growth affects income inequality. On the contrary empirical evidence shows that the impact of economic growth on income distribution depends more on the way in which growth is pursued than on the level of per capita income or the rate of growth. In fact, inequality is highly correlated with education, government economic activity, population growth rate, urbanisation, importance of the agricultural sector in total production, the specific characteristics of a country such as political system, natural resources, and other structural factors such as barriers to entry into high income jobs, the structure of capital markets and limited access to credits, existing distribution of property ownership, and inheritance system (Gallo, 2002). 
+
+#Data and methodology (including statistical methods)
+
+
+#Bibliography 
+
+Alesina, A., Perotti, R., (1996). Income distribution, political instability, and investment. European Economic Review 40(6): 1203-1228.
+
+Dabla-Norris E., Kochhar, K., Suphaphiphat, N., Ricka, F., Tsounta, E. (2015). Causes and Consequences of Income Inequality:   A Global Perspective. International Monetary Fund, Washington DC.
+
+Gallo, C., (2002). Economic Growth and income inequality: theoretical background and empirical evidence. Working paper n.     119, University College of London:
+ https://www.bartlett.ucl.ac.uk/dpu/publications/latest/publications/dpu-working-papers/WP119.pdf
+ 
+Ostry, J. D., Berg A., Tsangarides, G. C., (2014). Redistribution, inequality and growth. International Monetary Fund,        Washington DC. 
+
