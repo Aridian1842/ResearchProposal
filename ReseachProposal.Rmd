@@ -21,7 +21,8 @@ bibliography: bibliography.bib
 # Set working directory
 getwd()
 try(setwd("/Users/emiliasicari/Desktop/Assignment_2/ResearchProposal/"), silent = TRUE)
-try(setwd("/Users/rafalopez/Dropbox/R/ResearchProposal/"), silent = TRUE)
+try(setwd("/Users/rafalopez/Dropbox/R/Research.proposal/"), silent = TRUE)
+getwd()
 ```
 
 #Introduction
