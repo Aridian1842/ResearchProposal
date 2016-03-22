@@ -15,10 +15,12 @@ output:
 fontsize: 12pt
 bibliography: bibliography.bib
 ---
-```{r setup, include=FALSE}
-# Setting the working directory
-setwd("/Users/emiliasicari/Desktop/Assignment_2/ResearchProposal/")
-setwd("/Users/rafalopezv/Dropbox/R/ResearchProposal/")
+
+```{r, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, include=FALSE, results = 'asis'}
+# Set working directory
+getwd()
+try(setwd("/Users/emiliasicari/Desktop/Assignment_2/ResearchProposal/"), silent = TRUE)
+try(setwd("/Users/rafalopez/Dropbox/R/ResearchProposal/"), silent = TRUE)
 ```
 
 #Introduction 
