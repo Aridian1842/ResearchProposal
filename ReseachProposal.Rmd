@@ -21,7 +21,7 @@ bibliography: bibliography.bib
 # Set working directory
 getwd()
 try(setwd("/Users/emiliasicari/Desktop/Assignment_2/ResearchProposal/"), silent = TRUE)
-try(setwd("/Users/rafalopez/Dropbox/R/Research.proposal/"), silent = TRUE)
+try(setwd("/Users/rafalopezv/Dropbox/R/ResearchProposal/"), silent = TRUE)
 getwd()
 ```
 
@@ -53,7 +53,7 @@ The aim of our work is to investigate the relationship between the rise in inequ
 
 #Justification
 
-Singapore claims to be a successful country, which implies competition and development inequality in comparison with other countries that lack Singapore's success standards. The government of Singapore constantly displays [how well ranked the country is]( http://www.egov.gov.sg/accolades-and-awards-international-awards), in order to promote the *'success'* paradigm. Kishore Mahbudani, Dean of Lee Kuan Yew School of Public Policy, recently stated that the island went from having a 500 dollars GDP per capita in 1965 to 76237 dollars in 2015, almost doubling U.K., its former colonizer. Likewise, He said that *More than one in six households have $1 million in cash savings* [@LecturebyDeanKish:2015vv] The international competitiveness of Singapore is out of doubt. However, how competitive Singaporeans between each other are, how unequal the society is and what is triggered by this traits, are considerations worth analyzing. 
+Singapore claims to be a successful country, which implies competition and development inequality in comparison with other countries that lack Singapore's success standards. The government of Singapore constantly displays [**how well ranked the country is**]( http://www.egov.gov.sg/accolades-and-awards-international-awards), in order to promote the *'success'* paradigm. Kishore Mahbudani, Dean of Lee Kuan Yew School of Public Policy, recently stated that the island went from having a 500 dollars GDP per capita in 1965 to 76237 dollars in 2015, almost doubling U.K., its former colonizer. Likewise, He said that *More than one in six households have $1 million in cash savings* [@LecturebyDeanKish:2015vv] The international competitiveness of Singapore is out of doubt. However, how competitive Singaporeans between each other are, how unequal the society is and what is triggered by this traits, are considerations worth analyzing. 
 
 
 In a recent survey[@Mahbudani:2015vu], 9 out 15 Singaporeans agreed that its society is based on competitiveness, materialism, self-centredness, *'kiasi-ism'* (being afraid to die) and blame-shifting. Additionally,the same rate of Singaporean youngsters are worried that extreme competition would get them out of not affording what they called "basic goods", namely flats and a cars [@Rachel:2014wq]

@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{17}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -24,6 +24,11 @@ Ms~Era Dabla-Norris, Ms~Kalpana Kochhar, Mrs~Nujin Suphaphiphat, Mr~Frantisek
   perspective}.
 \newblock International Monetary Fund, 2015.
 
+\bibitem[{Department for Transport}(2011)]{DepartmentforTransport:2011ui}
+{Department for Transport}.
+\newblock {Behavioural Insights Toolkit}.
+\newblock Technical report, November 2011.
+
 \bibitem[Gallo(2002)]{gallo2002economic}
 Cesar Gallo.
 \newblock \emph{Economic growth and income inequality: Theoretical background
@@ -41,16 +46,49 @@ David Lewis.
 \newblock Economic perspectives on transport and equality.
 \newblock International Transport Forum Discussion Paper, 2011.
 
+\bibitem[Low(2012)]{Low:2012wb}
+Donald Low.
+\newblock {Behavioural economics and policy design : examples from Singapore}.
+\newblock 2012.
+
+\bibitem[Mahbudani(2014)]{Mahbudani:2014tv}
+Kishore Mahbudani.
+\newblock {Big Idea No. 1: A 'less-car' Singapore}, February 2014.
+\newblock URL
+  \url{http://www.straitstimes.com/opinion/big-idea-no-1-a-less-car-singapore}.
+
+\bibitem[Mahbudani(2015{\natexlab{a}})]{LecturebyDeanKish:2015vv}
+Kishore Mahbudani.
+\newblock {Lecture by Dean Kishore Mahbubani at the Dili Convention Centre},
+  March 2015{\natexlab{a}}.
+
+\bibitem[Mahbudani(2015{\natexlab{b}})]{Mahbudani:2015vu}
+Kishore Mahbudani.
+\newblock {Display the values we claim to have}, August 2015{\natexlab{b}}.
+\newblock URL
+  \url{http://www.straitstimes.com/opinion/display-the-values-we-claim-to-have}.
+
 \bibitem[Ostry et~al.(2014)Ostry, Berg, and
   Tsangarides]{ostry2014redistribution}
 Mr~Jonathan~David Ostry, Mr~Andrew Berg, and Mr~Charalambos~G Tsangarides.
 \newblock \emph{Redistribution, inequality, and growth}.
 \newblock International Monetary Fund, 2014.
 
+\bibitem[Rachel and Maryam(2014)]{Rachel:2014wq}
+Au-Yong Rachel and Mokhtar Maryam.
+\newblock {Youth worry about rising costs and jobs}, January 2014.
+\newblock URL
+  \url{http://www.straitstimes.com/singapore/youth-worry-about-rising-costs-and-jobs}.
+
 \bibitem[Seery(2014)]{seery2014working}
 Emma Seery.
 \newblock Working for the many: Public services fight inequality.
 \newblock 2014.
+
+\bibitem[{The Economist}(2012)]{TheEconomist:2012wi}
+{The Economist}.
+\newblock {Seeing the back of the car}, September 2012.
+\newblock URL \url{http://www.economist.com/node/21563280}.
 
 \bibitem[Verbist et~al.(2012)Verbist, F{\"o}rster, and
   Vaalavuo]{verbist2012impact}
@@ -58,5 +96,10 @@ Gerlinde Verbist, Michael~F F{\"o}rster, and Maria Vaalavuo.
 \newblock The impact of publicly provided services on the distribution of
   resources.
 \newblock 2012.
+
+\bibitem[Wilkinson and Klaes(2012)]{Wilkinson2012}
+Nick Wilkinson and Matthias Klaes.
+\newblock \emph{{An Introduction to Behavioral Economics}}.
+\newblock Palgrave Macmillan, April 2012.
 
 \end{thebibliography}

@@ -7,11 +7,12 @@ According to the <a href="https://github.com/HertieDataScience/SyllabusAndLectur
 Deadline March 25th, 10% of final grade.
 
 #Research outline
-The research tries to understand the relation between economic growth, inequality, usage of massive public transportation systems, as a corrector of inequality, and the consumption of luxury goods, namely cars. Concretely, a times series analysis from 1960 until now on the case of Singapore, will be conducted.
+The research tries to understand the relation between economic growth, inequality, usage of massive public transportation systems, as a corrector of inequality, and the consumption of luxury goods, namely cars. Concretely, a times series analysis from 1960 until now on the case of Singapore will be conducted.
 
 #Content
 The folder includes:
-- A Markdown file
-- A PDF file 
-- A bibliography file with .bib extension 
-- A html file 
+- [A Markdown file](https://github.com/EmiliaSicari/ResearchProposal/blob/master/ReseachProposal.Rmd)
+- [A PDF output file](https://github.com/EmiliaSicari/ResearchProposal/blob/master/ReseachProposal.pdf) 
+- [A HTML output file](https://github.com/EmiliaSicari/ResearchProposal/blob/master/ResearchProposal.html)
+- [A bibliography file with .bib extension](https://github.com/EmiliaSicari/ResearchProposal/blob/master/bibliography.bib) 
+
