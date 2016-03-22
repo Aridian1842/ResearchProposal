@@ -1,34 +1,28 @@
 ---
 title: "Research Proposal"
 subtitle: "Christopher Gandrud, Hertie School of Governance, Fall 2015"
-author: "Emilia Sicari and Rafael Lopez V."
+author: "Emilia Sicari & Rafael Lopez V."
 date: "March 25, 2016"
-output: pdf_document
-toc_depth: 2
-toc: true
-number_sections: true
+output: 
+  pdf_document:
+    toc_depth: 2
+    toc: true
+    number_sections: true
+  html_document:
+    toc_depth: 2
+    toc: true
+    number_sections: true
 fontsize: 12pt
-bibliography:
-- References.bib
+bibliography: bibliography.bib
 ---
-
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-# Installs packages, if necessary
-packages <- c('rvest', 'XML', 'maptools', 'stats', 'sp', 'dplyr')
-for (p in packages) {
-  if (p %in% installed.packages()[,1]) require(p, character.only=T)
-  else {
-    install.packages(p)
-    require(p, character.only=T)
-  }
-}
+# Setting the working working
+setwd("/Users/rafalopezv/Dropbox/R/ResearchProposal/")
 ```
 
 #Introduction 
 
 In the last decades, the increase in income inequality has raised growing concern. In 2013 inequality and lack of mobility were defined as "the challenge of our time" by President Obama and one year later Pope Francis condemned the global "economy of exclusion". In fact, income inequality is not only a problem of developed economies, where the gap between rich and poor is at highest levels in decades, but also in emerging economies, experiencing more mixed trends. In fact, all over access we find pervasive disparities (Dabla-Norris E., Kochhar, K., Suphaphiphat, N., Ricka, F. et alia, 2015). 
-
 
 #Research question, variables, hypotheses and justification
 
@@ -44,20 +38,22 @@ The aim of our work is to investigate the relationship between the rise in inequ
 - Inequality increase
 - Usage of public transportation systems
 
-The hypotheses to be tested are:
+**The hypotheses to be tested are:**
 
 - *H1:* The higher the economic growth the higher the purchase of luxury cars  
 - *H2:* The higher the inequality the higher the purchase of luxury cars
 - *H3:* The less usage of public transport the higher the purchase of luxury cars
-- *H4:* The higher the economic growth the higher the purchase of luxury cars 
-
->H2 - inequality recuces economic growth 
-
->H3 - public sevices reduce inequality, thus spurring economic growth
-
->H4 - the rise in inequality caused by economic growth leads people on the higher social strata ti uncrease their purchases of luxury goods, to show their status. 
 
 #Justification
+
+Singapore claims to be a successful country, which implies competition and development inequality in comparison with other countries that lack Singapore???s success standards. The government of Singapore constantly displays [how well ranked the country is]( http://www.egov.gov.sg/accolades-and-awards-international-awards), in order to promote the *'success'* paradigm. Kishore Mahbudani, Dean of Lee Kuan Yew School of Public Policy, recently stated that the island went from having a 500 dollars GDP per capita in 1965 to 76237 dollars in 2015, almost doubling U.K., its former colonizer. Likewise, He said that *More than one in six households have $1 million in cash savings*  The international competitiveness of Singapore is out of doubt. However, how competitive Singaporeans between each other are, how unequal the society is and what is triggered by this traits, are considerations worth analyzing. 
+
+
+In a recent survey (), 9 out 15 Singaporeans agreed that its society is based on competitiveness, materialism, self-centredness, kiasi-ism (being afraid to die) and blame-shifting. Additionally,the same rate of Singaporean youngsters are worried that extreme competition would get them out of not affording what they called "basic goods", namely flats and a cars.()
+
+Seeing a car, a basic need, in a country that has relentlessly tried to have world class transportation systems indicates that there are hidden drivers for owning cars. Singapore has tried to deter the purchase of cars by taxing them and a stablishing a certificate of car entitlement which can be above 70.000 dollars, therefore *???Singapore has made the car one of the most important status symbols in Singapore. This explains the attraction of European car brands in Singapore???*()
+
+When the so called development world, where Singapore belongs, is steadily reducing the use of private cars (), the overpopulation of them in Singapore could be understood under the lenses of high inequality, fierce competition and the need of displaying status symbols. 
 
 #Literature review 
 The description of the link between economic growth and inequality requires some preliminary definitions. 
@@ -82,5 +78,6 @@ A link between improved transport and diminished regional disparities in income 
 
 #Data and methodology (including statistical methods)
 
+#References
 
-#Bibliography 
+
