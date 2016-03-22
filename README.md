@@ -6,3 +6,12 @@ This is the Readme file for the second group assignment for the course <a href="
 According to the <a href="https://github.com/HertieDataScience/SyllabusAndLectures">Syllabus</a>, the task of the second pair assignment is to submit a proposal (max 2000 words) creater with R Markdown stating the research question, interest on the topic and preliminary bibliography cited with BibTeX. Moreover, the proposal has to include data sources on which we will base our analysis and the methodology we intend to use to answer to the research question, including statistical models that we will use. 
 Deadline March 25th, 10% of final grade.
 
+#Research outline
+The research tries to understand the relation between economic growth, inequality, usage of massive public transportation systems, as a corrector of inequality, and the consumption of luxury goods, namely cars. Concretely, a times series analysis from 1960 until now on the case of Singapore, will be conducted.
+
+#Content
+The folder includes:
+- A Markdown file
+- A PDF file 
+- A bibliography file with .bib extension 
+- A html file 
