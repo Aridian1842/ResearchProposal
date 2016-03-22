@@ -8,6 +8,7 @@ output:
     toc_depth: 2
     toc: true
     number_sections: true
+    citation_package: natbib
   html_document:
     toc_depth: 2
     toc: true
@@ -23,7 +24,7 @@ try(setwd("/Users/emiliasicari/Desktop/Assignment_2/ResearchProposal/"), silent 
 try(setwd("/Users/rafalopez/Dropbox/R/ResearchProposal/"), silent = TRUE)
 ```
 
-#Introduction 
+#Introduction
 
 In the last decades, the increase in income inequality has raised growing concern. In fact, income inequality is not only a problem of developed economies, where the gap between rich and poor is at highest levels in decades, but also in emerging economies, experiencing more mixed trends. In fact, all over access we find pervasive disparities (Dabla-Norris E., Kochhar, K., Suphaphiphat, N., Ricka, F. et alia, 2015).Inequality triggers individual and collective behavior which rational choice model can not explain thouroughly. Behavioral economics, as a complement, and sometimes as a challenge to the standar approach, may help undertsand what are the direvers that connect inequality with consumption of luxury goods, namely cars. The following research outline, suggest the methid to adress such chaallneges in Singapore. 
 
