@@ -1,9 +1,12 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{19}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Cli()]{Clio}
+
 
 \bibitem[Alesina and Perotti(1996)]{alesina1996income}
 Alberto Alesina and Roberto Perotti.
@@ -34,6 +37,12 @@ Cesar Gallo.
 \newblock \emph{Economic growth and income inequality: Theoretical background
   and empirical evidence}.
 \newblock Development Planning Unit, University College London, 2002.
+
+\bibitem[IMF Cross Country Macroecononmic~Statistics()]{IMF}
+year = 2015 url =
+  {https://www.quandl.com/data/ODA/SGP_NGDPPC-Singapore-GDP-per-Capita-at-Current-Prices-LCU}
+  urldate =~{2016–03-23} IMF Cross Country Macroecononmic~Statistics, title
+  =~{Singapore GDP per Capita at Current Prices, LCU}.
 
 \bibitem[Kuznets(1955)]{kuznets1955economic}
 Simon Kuznets.
