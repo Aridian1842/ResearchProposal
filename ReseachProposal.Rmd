@@ -18,6 +18,17 @@ bibliography: bibliography.bib
 ---
 
 ```{r, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, include=FALSE, results = 'asis'}
+# Set working directory
+getwd()
+try(setwd("/Users/emiliasicari/Desktop/Assignment_2/ResearchProposal/"), silent = TRUE)
+#Install and load packages
+install.packages("devtools")
+library(devtools)
+install_github('quandl/R-package')
+library(Quandl)
+#Citing the packages
+toBibtex(citation('devtools'))
+toBibtex(citation('Quandl'))
 ```
 Word count: 1.889
 
@@ -94,5 +105,3 @@ Income inequality is measured by the Gini index considering the time span betwee
 The link between economic growth and inequality will be investigated through a regression analysis. 
 
 #References
-
-
