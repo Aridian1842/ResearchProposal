@@ -108,15 +108,9 @@ Income inequality is measured by the Gini index considering the time span betwee
 
 The link between economic growth and inequality will be investigated through a regression analysis. 
 
-<<<<<<< Updated upstream
-#References
-=======
 3. Usage of public and private transport systems in Singapore
 The government of singapore has an [**Open Data Portal**](https://data.gov.sg) which provides data on [Annual motor vehicle population by type of vehicles from 1960 to 2015](https://data.gov.sg/dataset/annual-motor-vehicle-population-by-type-of-vehicles) in csv format with a https url path.Likewise data of [Average Daily Public Transport Ridership](https://data.gov.sg/dataset/public-transport-utilisation-average-public-transport-ridership) is provided in the same format   
 
 Both data sets will be downloaded using the repmis package and the source_data command
 
 #References
-
-
->>>>>>> Stashed changes
