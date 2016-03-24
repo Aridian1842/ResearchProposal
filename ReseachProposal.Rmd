@@ -1,6 +1,6 @@
 ---
 title: "Research Proposal"
-subtitle: Christopher Gandrud, Hertie School of Governance, Fall 2016
+subtitle: Christopher Gandrud, Hertie School of Governance, Spring 2016
 author: "Emilia Sicari & Rafael Lopez V."
 date: "March 25, 2016"
 output:
@@ -97,7 +97,8 @@ The government of singapore has an [**Open Data Portal**](https://data.gov.sg) w
 
 Both data sets will be downloaded using the repmis package and the source_data command
 
+We are considering to run a multiple regression between the depent and the independent variables, however a more detailed model with clearer interactions will be provided in the following weeks. 
 
-Word count: 1.889
+Word count: 1.999
 
 # References
