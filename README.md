@@ -13,6 +13,5 @@ The research tries to understand the relation between economic growth, inequalit
 The folder includes:
 - [A Markdown file](https://github.com/EmiliaSicari/ResearchProposal/blob/master/ReseachProposal.Rmd)
 - [A PDF output file](https://github.com/EmiliaSicari/ResearchProposal/blob/master/ReseachProposal.pdf) 
-- [A HTML output file](https://github.com/EmiliaSicari/ResearchProposal/blob/master/ResearchProposal.html)
-- [A bibliography file with .bib extension](https://github.com/EmiliaSicari/ResearchProposal/blob/master/bibliography.bib) 
+- [A bibliography file with .bib extension](https://github.com/EmiliaSicari/ResearchProposal/blob/master/bibliography.bib)
 
