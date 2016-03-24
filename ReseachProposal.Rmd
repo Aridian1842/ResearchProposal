@@ -4,35 +4,20 @@ subtitle: Christopher Gandrud, Hertie School of Governance, Fall 2016
 author: "Emilia Sicari & Rafael Lopez V."
 date: "March 25, 2016"
 output:
-  pdf_document: 
-    citation_package: natbib
+  pdf_document:
     number_sections: yes
-    toc: yes
+    toc: true
     toc_depth: 2
-  html_document:
-    number_sections: yes
-    toc: yes
-    toc_depth: 2
-fontsize: 12pt
-bibliography: bibliography.bib 
+--bibliography: bibliography.bib 
+link citation: true
 ---
 
 ```{r, echo=FALSE, warning=FALSE, error=FALSE, message=FALSE, include=FALSE, results = 'asis'}
-# Setting working directory
-getwd()
-try(setwd("/Users/emiliasicari/Desktop/Assignment_2/ResearchProposal/"), silent = TRUE)
-#Install and load packages
-install.packages("devtools")
-library(devtools)
-install_github('quandl/R-package')
-library(Quandl)
-#Citing the packages
-toBibtex(citation('devtools'))
-toBibtex(citation('Quandl'))
+
 ```
 Word count: 1.889
 
-#Introduction
+# Introduction
 
 In the last decades, the increase in income inequality has generated growing concern. In 2013 it was defined "the challenge of our time" by President Obama and one year later Pope Francis condemned the global "economy of exclusion". In fact, it is a problem in both developed economies, where the gap between rich and poor is at highest levels in decades, and  emerging economies, experiencing more mixed trends [@dabla2015causes].
 
@@ -40,7 +25,7 @@ At the same time, inequality triggers individual and collective behavior which t
 
 The following research outline states the methods, luterature review and justifies researching such challenges in Singapore. 
 
-#Research question, variables, hypotheses and justification
+# Research question, variables, hypotheses and justification
 
 The aim of our work is to investigate the relationship between the rise in inequality and economic growth,  purchase of luxury goods, particularly cars, and the usage of public transportation systems in Singapore, from 1960 to 2015.
 
@@ -60,7 +45,7 @@ The aim of our work is to investigate the relationship between the rise in inequ
 - *H2:* The higher the inequality the higher the purchase of luxury cars
 - *H3:* The less usage of public transport the higher the purchase of luxury cars
 
-#Justification
+# Justification
 
 Singapore claims to be a successful country, which implies competition and development inequality in comparison with other countries that lack Singapore's success standards. The government of Singapore constantly displays [**how well ranked the country is**]( http://www.egov.gov.sg/accolades-and-awards-international-awards), in order to promote the *'success'* paradigm. Kishore Mahbudani, Dean of Lee Kuan Yew School of Public Policy, recently stated that the island went from having a 500 dollars GDP per capita in 1965 to 76.237 dollars in 2015, almost doubling U.K., its former colonizer. Likewise, He said that *'More than one in six households have $1 million in cash savings'* [@LecturebyDeanKish:2015vv] The international competitiveness of Singapore is out of doubt. However, how competitive Singaporeans between each other are, how unequal the society is and what is triggered by this traits, are considerations worth analyzing. 
 
@@ -70,7 +55,7 @@ Seeing a car, a basic need, in a country that has relentlessly tried to have wor
 
 When the so called development world, where Singapore belongs, is steadily reducing the use of private cars[@TheEconomist:2012wi], the overpopulation of them in Singapore could be understood under the lenses of high inequality, fierce competition and the need of displaying status symbols. 
 
-#Literature review
+# Literature review
 
 ## Economic growth and inequality
 
@@ -96,19 +81,19 @@ Reference points are mental thresholds that individual set in order to compare t
 
 In the case of Singapore, car purchasing deterrents were created to avoid an overpopulation of cars. However, mainly those were based on the rational choice model, pretending a change in individuals behaviour, which came rarely [@Low:2012wb]
 
-#Data and methodology
+# Data and methodology
 
 To measure our variables, we will use the following data.
 
 1. Economic growth
-Economic growth is measured by Singapore's GDP per capita at current princes from 1960 to 2015, espressed in current national currency. Data are derived by dividing current price GDP by total population and are sourced by IMF Cross Country Macroeconomic Statistics open data available on quandl (https://www.quandl.com/data/ODA/SGP_NGDPPC) [@IMF]. Data will be imported to R in CSV format. 
+Economic growth is measured by Singapore's GDP per capita at current princes from 1960 to 2015, espressed in current national currency. Data are derived by dividing current price GDP by total population and are sourced by IMF Cross Country Macroeconomic Statistics open data available on quandl (https://www.quandl.com/data/ODA/SGP_NGDPPC). Data will be imported to R in CSV format. 
 
 2. Income inequality
-Income inequality is measured by the Gini index considering the time span between 1960 and 2015. Data are available on quandl from the data base [**Clio Infra**](https://www.quandl.com/data/CLIO/SGP_II) [@Clio] and will be imported to R in CSV format.The link between economic growth and inequality will be investigated through a regression analysis. 
+Income inequality is measured by the Gini index considering the time span between 1960 and 2015. Data are available on quandl from the data base [**Clio Infra**](https://www.quandl.com/data/CLIO/SGP_II) and will be imported to R in CSV format.The link between economic growth and inequality will be investigated through a regression analysis. 
 
 3. Usage of public and private transport systems in Singapore
 The government of singapore has an [**Open Data Portal**](https://data.gov.sg) which provides data on [Annual motor vehicle population by type of vehicles from 1960 to 2015](https://data.gov.sg/dataset/annual-motor-vehicle-population-by-type-of-vehicles) in csv format with a https url path.Likewise data of [Average Daily Public Transport Ridership](https://data.gov.sg/dataset/public-transport-utilisation-average-public-transport-ridership) is provided in the same format   
 
 Both data sets will be downloaded using the repmis package and the source_data command
 
-#References
+# References
